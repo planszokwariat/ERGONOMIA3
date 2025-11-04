@@ -1839,5 +1839,5 @@ const app = {
 // Uruchamiamy inicjalizację po załadowaniu DOM, co jest najlepszą praktyką.
 document.addEventListener('DOMContentLoaded', function() {
     app.init();
-  window.app = app;
 });
+window.app = app;
